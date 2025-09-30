@@ -1,5 +1,6 @@
 import { Facebook, Twitter, Instagram, Github, ShoppingCart, Phone, Mail, MapPin } from "lucide-react";
 import StayUpdated from "../support/StayUpdated";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -20,25 +21,28 @@ const Footer = () => {
             {/* Contact information */}
             <div className="space-y-1 text-sm">
               <a 
-                href="mailto:support@birhanu.et" 
+                href="mailto:support@youngcoders.et" 
                 className="block hover:text-blue-600 transition-colors"
               >
-              <p className="flex"><Mail className="text-green-600 pr-2"/>support@YoungCoders.et
+              <p className="flex"><Mail className="text-green-600 pr-2"/>
+              support@YoungCoders.et
               </p>
-
               </a>
               <a 
                 href="tel:+2519999999" 
                 className="block hover:text-blue-600 transition-colors"
               >
-              <p className="flex">  <Phone className="text-green-600 pr-2"/> +251 999 9999</p>
-
+              <p className="flex">  <Phone className="text-green-600 pr-2"/> 
+              +251 999 9999
+              </p>
               </a>
               <a 
                 href="https://www.addisababa.com" 
                 className="block hover:text-blue-600 transition-colors"
               >
-               <p className="flex"> < MapPin  className="text-green-600 pr-2"/> Addis Ababa, Ethiopia</p>
+               <p className="flex"> < MapPin  className="text-green-600 pr-2"/> 
+               Addis Ababa, Ethiopia
+               </p>
               </a>
             </div>
           </div>
@@ -49,10 +53,26 @@ const Footer = () => {
             <div>
               <h3 className="font-semibold mb-3 mt-6">Shop</h3>
               <ul className="space-y-2 text-sm">
-                <li><a href="#" className="hover:text-blue-600 transition-colors">All Products</a></li>
-                <li><a href="#" className="hover:text-blue-600 transition-colors">Electronics</a></li>
-                <li><a href="#" className="hover:text-blue-600 transition-colors">Clothing</a></li>
-                <li><a href="#" className="hover:text-blue-600 transition-colors">Books</a></li>
+                <li>
+                  <Link to='/products' className="hover:text-blue-600 transition-colors">
+                  All Products
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/categories?categories=electronics" className="hover:text-blue-600 transition-colors">
+                  Electronics
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/clothing" className="hover:text-blue-600 transition-colors">
+                  Clothing
+                  </Link>
+                </li>
+                <li>
+                  <Link to="books" className="hover:text-blue-600 transition-colors">
+                  Books
+                  </Link>
+                </li>
               </ul>
             </div>
             
@@ -60,10 +80,26 @@ const Footer = () => {
             <div>
               <h3 className="font-semibold mb-3 mt-6">Support</h3>
               <ul className="space-y-2 text-sm">
-                <li><a href="#" className="hover:text-blue-600 transition-colors">Help Center</a></li>
-                <li><a href="#" className="hover:text-blue-600 transition-colors">Contact Us</a></li>
-                <li><a href="#" className="hover:text-blue-600 transition-colors">Shipping Info</a></li>
-                <li><a href="#" className="hover:text-blue-600 transition-colors">Returns</a></li>
+                <li>
+                  <Link to="#" className="hover:text-blue-600 transition-colors">
+                    Help Center
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/contact" className="hover:text-blue-600 transition-colors">
+                    Contact Us
+                  </Link>
+                </li>
+                <li>
+                  <Link to="#" className="hover:text-blue-600 transition-colors">
+                    Shipping Info
+                  </Link>
+                </li>
+                <li>
+                  <Link t0="#" className="hover:text-blue-600 transition-colors">
+                    Returns
+                  </Link>
+                </li>
               </ul>
             </div>
             
@@ -71,10 +107,26 @@ const Footer = () => {
             <div>
               <h3 className="font-semibold mb-3 mt-6">Company</h3>
               <ul className="space-y-2 text-sm">
-                <li><a href="#" className="hover:text-blue-600 transition-colors">About Us</a></li>
-                <li><a href="#" className="hover:text-blue-600 transition-colors">Careers</a></li>
-                <li><a href="#" className="hover:text-blue-600 transition-colors">Privacy Policy</a></li>
-                <li><a href="#" className="hover:text-blue-600 transition-colors">Terms of Service</a></li>
+                <li>
+                  <Link to='/about' className="hover:text-blue-600 transition-colors">
+                    About Us
+                  </Link>
+                </li>
+                <li>
+                  <Link to='#' className="hover:text-blue-600 transition-colors">
+                    Careers
+                  </Link>
+                </li>
+                <li>
+                  <Link to='#' className="hover:text-blue-600 transition-colors">
+                    Privacy Policy
+                  </Link>
+                </li>
+                <li>
+                  <Link to='#' className="hover:text-blue-600 transition-colors">
+                    Terms of Service
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>
