@@ -3,7 +3,7 @@ This project was done by:
 # 1. Mitiku Kassaw
 # 2. Abriham AlemTesfaw
 # 3. Mudesir 
-#In Collaboration With ## 4. Birhanu Kabito
+# 4. Birhanu Kabito (Instructor)
 
  🛒 E-Commerce Project
 
