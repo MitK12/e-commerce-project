@@ -1,4 +1,11 @@
 README.md
+This project was done by:
+# 1. Mitiku Kassaw
+# 2. Abriham AlemTesfaw
+# 3. Mudesir 
+## In Collaboration With ##  
+#4. Birhanu Kabito
+
  🛒 E-Commerce Project
 
 A modern, fully responsive e-commerce web application** built with **React**, **TailwindCSS**, and **MERN stack** technologies.  
