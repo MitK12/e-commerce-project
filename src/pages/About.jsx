@@ -214,49 +214,4 @@ export default About;
 
 
 
-// const About = () => {
-//   const team = [
-//     { name: "John Doe", role: "CEO", image: "https://via.placeholder.com/150" },
-//     { name: "Jane Smith", role: "Designer", image: "https://via.placeholder.com/150" },
-//     { name: "Alex Brown", role: "Developer", image: "https://via.placeholder.com/150" },
-//   ];
 
-//   return (
-//     <div className="max-w-7xl mx-auto px-6 py-10 space-y-12">
-//       {/* Company Info */}
-//       <section className="text-center space-y-4">
-//         <h2 className="text-3xl font-bold text-gray-800">About Us</h2>
-//         <p className="max-w-2xl mx-auto text-gray-600">
-//           ShopEase is your trusted e-commerce platform providing top-quality
-//           products at unbeatable prices. Our mission is to make shopping
-//           seamless and enjoyable for everyone.
-//         </p>
-//       </section>
-
-//       {/* Team Section */}
-//       <section>
-//         <h3 className="text-2xl font-bold text-gray-800 text-center mb-6">
-//           Meet Our Team
-//         </h3>
-//         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-//           {team.map((member, index) => (
-//             <div
-//               key={index}
-//               className="flex flex-col items-center text-center border rounded-lg p-6 shadow hover:shadow-lg transition"
-//             >
-//               <img
-//                 src={member.image}
-//                 alt={member.name}
-//                 className="w-24 h-24 rounded-full mb-4"
-//               />
-//               <h4 className="font-semibold text-gray-800">{member.name}</h4>
-//               <p className="text-gray-500 text-sm">{member.role}</p>
-//             </div>
-//           ))}
-//         </div>
-//       </section>
-//     </div>
-//   );
-// };
-
-// export default About;
